@@ -1,0 +1,26 @@
+body {
+    background-color: lightcyan;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 4vh;
+    text-align: center;
+    gap: 20px;
+}
+
+#ingredients {
+    padding: 20px;
+    width: 400px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.upside-down {
+    /* Rotate the image 180 degrees */
+    transform: rotate(180deg);
+}

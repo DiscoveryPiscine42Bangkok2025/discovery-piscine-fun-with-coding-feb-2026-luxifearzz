@@ -22,7 +22,7 @@ const addTodoToFtList = (element) => {
 
 $(document).ready(function () {
     loadTodos();
-    // -- Event listeners
+
     $("#add-todo").click(function () {
         const todo = prompt("Enter new task");
 
